@@ -3,30 +3,30 @@
 function Blog(){
     return (
         <div>
-            <h2 className="mb-4 text-3xl font-semibold">Read</h2>
+            <h2 className="py-4 text-3xl font-semibold">Read</h2>
 
             <div className="mb-4 ">
-            <h3 className="text-2xl font-medium">→ Create Your First dApp (Decentralized App)</h3>
-            <h4 className="text-xl font-medium"> 02.15.2024 </h4>
-            <p>How to get yourself setup to write your first dApp using React, Solidity, and Hardhat.</p>
+            <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/creating-your-first-full-stack-dapp-with-solidity-hardhat-and-react">→ Creating Your First dApp (Decentralized App)</a></h3>
+            <h4 className="my-2 text-xl font-medium"> 02.15.2024 </h4>
+            <p className="font-light">How to get yourself setup to write your first dApp using React, Solidity, and Hardhat for local blockchain development.</p>
             </div>
 
             <div className="mb-4 ">
-            <h3 className="text-2xl font-medium">→ An Exploration of APIs with Python</h3>
-            <h4 className="text-xl font-medium"> 01.25.2024 </h4>
-            <p>Learn the differences between REST & RESTful API conventions.</p>
+            <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/understanding-the-differences-between-rest-api-and-restful-api-using-python">→ An Exploration of APIs with Python</a></h3>
+            <h4 className="my-2 text-xl font-medium"> 01.25.2024 </h4>
+            <p className="font-light">Learn the differences between REST & RESTful API conventions.</p>
             </div>
 
             <div className="mb-4 ">
-            <h3 className="text-2xl font-medium">→ Creating a CLI Book Tracking App</h3>
-            <h4 className="text-xl font-medium"> 01.05.2024 </h4>
-            <p>Mark books as Currently Reading, Want to Read, and Completed.</p>
+            <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/recreating-a-simple-goodreads-book-tracker-using-python-sqlalchemy-and-inquirer">→ Creating a CLI Book Tracking App</a></h3>
+            <h4 className="my-2 text-xl font-medium"> 01.05.2024 </h4>
+            <p className="font-light">Mark books as Currently Reading, Want to Read, and Completed.</p>
             </div>
 
             <div className="mb-4 ">
-            <h3 className="text-2xl font-medium">→ Reflecting on my First Frontend Project</h3>
-            <h4 className="text-xl font-medium"> 12.06.2024 </h4>
-            <p>How I learned to design a product-centric website with React and Tailwind.</p>
+            <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/my-experience-designing-with-react-tailwind">→ Reflecting on my First Frontend Project</a></h3>
+            <h4 className="my-2 text-xl font-medium"> 12.06.2024 </h4>
+            <p className="font-light">How I learned to design a product-centric website with React and Tailwind.</p>
             </div>
         </div>
     )

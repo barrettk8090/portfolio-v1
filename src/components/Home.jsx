@@ -5,9 +5,10 @@ import Blog from './Blog';
 
 function Home(){
     return (
-        <div>
-            <h1 className="mt-12 text-4xl font-bold">Barrett Kowalsky</h1>
-            <h4 className="my-6 text-xl"> Full Stack Dev</h4>
+        <div className="mx-8">
+            <h1 className="mt-8 text-4xl font-bold">Barrett Kowalsky</h1>
+            <h4 className="my-4 text-xl"> Full Stack Dev</h4>
+            <p className="my-4 font-normal">Creating unique, meaningful, and user-friendly experiences. Inspired by outer space. Constantly learning.</p>
             <Projects />
             <Blog/>
             <Links />
