@@ -25,7 +25,7 @@ function Blog(){
 
             <div className="mb-4 ">
             <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/my-experience-designing-with-react-tailwind">→ Reflecting on my First Frontend Project</a></h3>
-            <h4 className="my-2 text-xl font-medium"> 12.06.2024 </h4>
+            <h4 className="my-2 text-xl font-medium"> 12.06.2023 </h4>
             <p className="font-light">How I learned to design a product-centric website with React and Tailwind.</p>
             </div>
         </div>
