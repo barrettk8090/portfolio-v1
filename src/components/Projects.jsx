@@ -12,7 +12,7 @@ function Projects(){
             </div>
 
             <div className="mb-4 ">
-                <h3 className="text-2xl font-medium"><a target="_blank" href="https://github.com/DIMO-Network/dimo-python-sdk">→ Sirch 🔎</a></h3>
+                <h3 className="text-2xl font-medium"><a target="_blank" href="https://sirchcoin.com/">→ Sirch 🔎</a></h3>
                 <h4 className="my-2 text-xl font-medium"> React, Supabase, Postgres, Stripe </h4>
                 <p className="font-normal"><a href="https://sirch.ai/" target="_blank"> Sirch</a> is an AI search engine that places a core emphasis on human ingenuity. I joined the Sirch team in March of 2024 because I was intrigued by the combination of human-generated content intermingling with AI – something that's lacking in nearly all ML projects to date. I'm part of the Sirch Coins team, building a new currency that will power the Sirch engine. I lead frontend development in React, along with the configuration of our Postgres Supabase db. I integrated Stripe payments to allow users to purchase Sirch coins with cold hard cash.</p>
             </div>
