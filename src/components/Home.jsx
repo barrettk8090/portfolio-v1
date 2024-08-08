@@ -8,7 +8,9 @@ function Home(){
         <div className="mx-8">
             <h1 className="mt-8 text-4xl font-bold">Barrett Kowalsky</h1>
             <h4 className="my-4 text-xl"> Full Stack Developer</h4>
-            <p className="my-4 font-normal">Interested in creating unique, meaningful, and user-friendly experiences.<br/> Inspired by outer space. </p>
+            <div className="max-w-lg">
+                <p className="my-4 font-normal">Hello there. I'm a software engineer based in Denver, CO. I enjoy programming in JavaScript & Python (among other languages), and also have experience working in cross-functional teams. I love crafting full stack applications and have a special interest in crypto/web3 projects.</p>
+            </div>
             <Projects />
             <Blog/>
             <Links />
