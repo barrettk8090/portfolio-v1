@@ -3,7 +3,7 @@
 function Blog(){
     return (
         <div className="max-w-xl">
-            <h2 className="py-4 text-3xl font-semibold">Read</h2>
+            <h2 className="py-4 text-3xl font-semibold">Blog</h2>
 
             <div className="mb-4 ">
             <h3 className="text-2xl font-medium"><a target="_blank" href="https://barrettk.hashnode.dev/creating-your-first-full-stack-dapp-with-solidity-hardhat-and-react">→ Creating Your First dApp (Decentralized App)</a></h3>
