@@ -1,4 +1,4 @@
-
+import fundOS from '../assets/fundOS.pdf'
 
 function Projects(){
     return (
@@ -20,7 +20,7 @@ function Projects(){
             <div className="mb-4">
                 <h3 className="text-2xl font-medium"><a target="_blank" href="https://github.com/barrettk8090/fundOS">→ fundOS 💰</a></h3>
                 <h4 className="my-2 text-xl font-medium"> React, Solidity, SQL, Web3 </h4>
-                <p className="font-normal">I built fundOS as a part of my capstone project at Flation School. I only had three weeks to build this, and had to include a technology I'd never used before. I immediately knew I wanted to build a decentralized app (dApp) with Solidity. I successfully built the project on time, and even got to deliver a presentation to get my classmates quickly up to speed on blockchain tech. The dApp is a crowdfunding website a-la Kickstarter, and users can connect their ETH wallets to post their projects to the blockchain.</p>
+                <p className="font-normal">I built fundOS as a part of my capstone project at Flatiron School. I only had three weeks to build this, and had to include a technology I'd never used before. I immediately knew I wanted to build a decentralized app (dApp) with Solidity. I successfully built the project on time, and even got to deliver <a href={fundOS} target="_blank">a presentation</a> to get my classmates quickly up to speed on blockchain tech. The dApp is a crowdfunding website a-la Kickstarter, and users can connect their ETH wallets to post their projects to the blockchain.</p>
             </div>
 
             <div className="mb-4 ">
