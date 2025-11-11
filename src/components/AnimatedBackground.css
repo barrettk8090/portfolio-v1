@@ -1,0 +1,131 @@
+.animated-gradient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0f172a, #1e1b4b, #0c4a6e, #1e3a8a);
+    background-size: 400% 400%;
+    animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.6;
+    animation: float 25s infinite ease-in-out;
+    will-change: transform;
+}
+
+.orb-1 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.8), rgba(37, 99, 235, 0.4));
+    top: -10%;
+    left: -10%;
+    animation-delay: 0s;
+}
+
+.orb-2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.7), rgba(59, 130, 246, 0.3));
+    bottom: -10%;
+    right: -10%;
+    animation-delay: -8s;
+}
+
+.orb-3 {
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(147, 197, 253, 0.6), rgba(96, 165, 250, 0.2));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-delay: -16s;
+}
+
+.orb-4 {
+    width: 380px;
+    height: 380px;
+    background: radial-gradient(circle, rgba(125, 211, 252, 0.5), rgba(59, 130, 246, 0.2));
+    top: 20%;
+    right: 15%;
+    animation-delay: -12s;
+}
+
+.mouse-glow {
+    position: fixed;
+    top: -200px;
+    left: -200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, rgba(147, 197, 253, 0.1) 30%, transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+    mix-blend-mode: screen;
+    filter: blur(20px);
+    will-change: transform;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+        transform: translate(50px, -40px) scale(1.15) rotate(5deg);
+    }
+    50% {
+        transform: translate(-30px, 30px) scale(0.95) rotate(-5deg);
+    }
+    75% {
+        transform: translate(60px, 15px) scale(1.08) rotate(3deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .gradient-orb {
+        filter: blur(60px);
+    }
+
+    .orb-1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .orb-2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .orb-3 {
+        width: 280px;
+        height: 280px;
+    }
+
+    .orb-4 {
+        width: 220px;
+        height: 220px;
+    }
+
+    .mouse-glow {
+        width: 250px;
+        height: 250px;
+    }
+}
